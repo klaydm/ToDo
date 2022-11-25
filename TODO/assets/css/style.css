@@ -160,6 +160,10 @@ h1.all {
   
 }
 
+p {
+  color: #F6F1D1;
+}
+
 .check-icon {
   background-color: transparent;
   display: block;
