@@ -17,13 +17,15 @@
     <p></p>
   
       <form class="form" action="">
-        <input class="form-input" type="text" data-form-input>
+        <input class="form-input" type="text" data-form-input required>
+        <input class="data" type="datetime-local" placeholder="Preencha com 2022-11-23" data-form-date required>
         <button class="form-button" data-form-buttom> Novo Item </button>
       </form>
 
       <ul class="list" data-list>
       </ul>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script type="module" src="main.js"></script>
 </body>
 </html>
